@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 
 const app = express();
 
-const TOKEN_URL = "https://universidadeecommerce.com/mercadolivre/access_token.php?key=SUA_CHAVE_BEM_FORTE";
+const TOKEN_URL = "https://universidadeecommerce.com/mercadolivre/access_token.php?key=g7AK9vRZx2Qw38zLm4TTpT1sB0uYf3HkZ";
 
 app.get("/search", async (req, res) => {
   try {
